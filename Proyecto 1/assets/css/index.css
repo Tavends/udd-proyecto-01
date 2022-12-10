@@ -1,13 +1,12 @@
 * {
     padding: 0;
     margin: 0;
-    
 }
 
 body {
     display: grid;
     grid-template-areas:
-        "header header header"
+                     "header header header"
         "Main Main Main"
         "Main Main Main"
         "Main Main Main"
@@ -27,6 +26,7 @@ main {
     background-color: yellow;
     grid-template-rows: 100% 100% 100%;
 }
+
 #jumbotron {
     background-image: url(<!--agregarimg);
     background-repeat: no-repeat;
@@ -37,9 +37,10 @@ main {
 #blog {
     background-color: purple;
     height: 300px;
-    grid-template-columns: 1fr 1fr 1fr; /*aqui se dividio en 3 fracciones*/
-    gap:20px;
-    align-items:center;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*aqui se dividio en 3 fracciones*/
+    gap: 20px;
+    align-items: center;
     padding: 20px;
     justify-content: center;
 }
