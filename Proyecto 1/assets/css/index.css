@@ -12,6 +12,7 @@ body {
         "Main Main Main"
         "Footer Footer Footer";
     min-height: 100vh;
+    color: blueviolet;
 }
 
 Header {
@@ -35,22 +36,27 @@ main {
 }
 
 #blog {
-    background-color: purple;
-    height: 300px;
+    background-color: chartreuse;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /*aqui se dividio en 3 fracciones*/
-    gap: 20px;
-    align-items: center;
     padding: 20px;
-    justify-content: center;
+    gap: 20px;
+}
+#blog article {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    margin: 0 auto;
 }
 
 #adicionales {
-    background-color: brown;
+    background-color: blue;
     height: 300px;
 }
 
 Footer {
     grid-area: footer;
-    background-color: green;
+    background-color: darkcyan;
+    height: 100px;
 }
