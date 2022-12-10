@@ -37,6 +37,11 @@ main {
 #blog {
     background-color: purple;
     height: 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+    align-items:center;
+    padding: 20px;
+    justify-content: center;
 }
 
 #adicionales {
