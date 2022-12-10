@@ -17,6 +17,7 @@ body {
 Header {
     grid-area: header;
     background-color: blue;
+    height: 100vh;
 }
 
 main {
