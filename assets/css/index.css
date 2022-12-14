@@ -18,9 +18,10 @@ body {
 header {
     grid-area: header;
     background-color: blue;
-    height: 100px;
+    height: 130px;
     display: flex;
-}
+   }
+.header 
 
 main {
     grid-area: main;
