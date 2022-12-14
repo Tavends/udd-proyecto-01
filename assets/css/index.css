@@ -30,7 +30,7 @@ main {
 }
 
 #jumbotron {
-    background-image: url(assets/img/Nemui1.jpeg);
+    background-image: url(/assets/img/Portada.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
