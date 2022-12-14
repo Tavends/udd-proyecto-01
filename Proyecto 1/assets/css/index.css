@@ -1,21 +1,21 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     display: grid;
     grid-template-areas:
                      "header header header"
-        "Main Main Main"
-        "Main Main Main"
-        "Main Main Main"
-        "Footer Footer Footer";
+                     "Main Main Main"
+                     "Main Main Main"
+                     "Main Main Main"
+                     "Footer Footer Footer";
     min-height: 100vh;
-    color: blueviolet;
 }
 
-Header {
+header {
     grid-area: header;
     background-color: blue;
     height: 100px;
@@ -29,7 +29,7 @@ main {
 }
 
 #jumbotron {
-    background-image: url(<!--agregarimg);
+    background-image: url();
     background-repeat: no-repeat;
     height: 500px;
     display: flex;
