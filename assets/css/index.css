@@ -53,10 +53,6 @@ body {
     color: white;
 }
 
-.header-right {
-    float: right;
-}
-
 main {
     grid-area: main;
     background-color: yellow;
