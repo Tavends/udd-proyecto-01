@@ -9,12 +9,16 @@ ul {
 }
 
 header {
-    background-color: Red;
+    background-color: transparent;
     display: block;
     padding: 30px 10px;
     height: fit-content;
     align-items: center;
     justify-content: space-between;
+}
+#logo {
+    height: 100px;
+    width: 100px;
 }
 
 header .header-right nav ul {
@@ -32,7 +36,7 @@ header .header-right nav ul li a {
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: transparent
 }
 
 main {
@@ -40,13 +44,9 @@ main {
     background-color: transparent;
     grid-template-rows: 100% 100% 100%;
 }
+
 main section div p {
-    text-align:right;
-}
-img {
-    object-fit: cover;
-    inline-size: 100%;
-    border-radius: 40px;
+    text-align: right;
 }
 
 #jumbotron {
@@ -70,13 +70,17 @@ img {
 #blog article {
     width: 200px;
     height: 200px;
-    background-color: transparent;
-    margin: 0 auto;
+    border-radius: 40px;
+}
+article img {
+    border-radius: 40px;
+    
 }
 
 #adicionales {
-    background-color: blue;
+    background-color: transparent;
     height: 300px;
+    border-radius: 40px;
 }
 
 Footer {
@@ -99,10 +103,10 @@ Footer {
 
 @media (max-width: 420px) {
     header .header-right {
-        display:flex;
-         }
+        display: flex;
+    }
+
     header {
         background-color: red;
     }
 }
-
