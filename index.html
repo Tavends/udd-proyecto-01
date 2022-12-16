@@ -12,18 +12,22 @@
 
 <body>
   <header>
-    <a href="#default" class="logo"> <img src="assets/img/Logo.jpg" alt="" height="fit-content"></a>
-    <div class="header-right">
+    <div id="logo">
+      <a href="#default">
+        <img src="assets/img/Logo.jpg" alt="">
+      </a>
+    </div>
+    <div id="nav" class="header-right">
       <nav>
         <ul>
           <li>
             <a class="active" href="#home">Home</a>
           </li>
           <li>
-            <a class="active" href="#home">Contact</a>
+            <a class="active" href="#contact">Contact</a>
           </li>
           <li>
-            <a class="active" href="#home">About</a>
+            <a class="active" href="#about">About</a>
           </li>
         </ul>
       </nav>
@@ -31,11 +35,16 @@
   </header>
 
   <main>
+    <!-- aca la seccion de jumbotron -->
     <section id="jumbotron">
-      <div>
+      <div class="jumbotron">
         <p>Propiedades max</p>
       </div>
-      <div>
+      <div class="jumbotron">
+          <form>
+            <input placeholder="Ingresa tu correo" type="email" name="email" id="email"/>
+            <button type="submit">Enviar</button>
+          </form>
       </div>
     </section>
     <section id="blog">
@@ -64,7 +73,37 @@
   </main>
 
   <footer>
-    Footer
+    <div>
+      <div id="footerLinks" class="grid-container">
+        <div class="footer-item-1">
+          <h3>Descripcion</h3>
+          <ul>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+          </ul>
+        </div>
+        <div class="footer-item-2">
+          <h3>Descripcion</h3>
+          <ul>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+          </ul>
+        </div>
+        <div class="footer-item-3">
+          <h3>Weas</h3>
+          <ul>
+            <li><a href="index.html">item</a></li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </footer>
 </body>
 
