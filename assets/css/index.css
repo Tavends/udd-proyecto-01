@@ -42,6 +42,7 @@ body {
 
 .header-right {
     float: right;
+    display: flex;
 }
 
 footer {
